@@ -1,0 +1,190 @@
+[
+    {
+      "question": "What is Heaven Hub",
+      "answer": "Heaven Hub is a real estate platform that helps users buy, sell, or rent properties effortlessly."
+    },
+    {
+      "question": "How can I search for properties",
+      "answer": "You can use the search bar on the homepage to filter properties by location, price, or type."
+    },
+    {
+      "question": "What property types do you offer",
+      "answer": "We offer residential, commercial, and rental properties, including apartments, houses, offices, and more."
+    },
+    {
+      "question": "How do I list my property",
+      "answer": "Click on the 'List Property' button on the homepage, create an account, and follow the steps to upload details about your property."
+    },
+    {
+      "question": "Is there a fee to list my property",
+      "answer": "Listing your property is free, but we offer premium plans for better visibility."
+    },
+    {
+      "question": "Can I schedule a visit to a property",
+      "answer": "Yes, you can schedule a visit by clicking on the 'Schedule Visit' button on the property page."
+    },
+    {
+      "question": "How do I contact the property owner",
+      "answer": "Property owner details are available on the property page. You can use the provided contact form or call directly."
+    },
+    {
+      "question": "What locations are covered by Heaven Hub",
+      "answer": "We currently operate in major cities across India, including Delhi, Mumbai, Bengaluru, and Hyderabad."
+    },
+    {
+      "question": "How can I register on Heaven Hub",
+      "answer": "Click on the 'Sign Up' button on the homepage and provide your email, phone number, and a password to create an account."
+    },
+    {
+      "question": "What should I do if I forget my password",
+      "answer": "Click on the 'Forgot Password' link on the login page and follow the instructions to reset your password."
+    },
+    {
+      "question": "Does Heaven Hub verify listed properties",
+      "answer": "Yes, we verify all listed properties to ensure they meet our quality standards and provide accurate information."
+    },
+    {
+      "question": "Are there any hidden charges",
+      "answer": "No, we believe in transparency and do not have any hidden charges."
+    },
+    {
+      "question": "Can I negotiate the property price",
+      "answer": "Yes, you can negotiate directly with the property owner or agent using our chat feature or during the visit."
+    },
+    {
+      "question": "How do I report a fraudulent listing",
+      "answer": "If you suspect a fraudulent listing, please click on 'Report' on the property page or contact our support team."
+    },
+    {
+      "question": "Does Heaven Hub provide loans or financing",
+      "answer": "We partner with financial institutions to help you with home loans. Visit our 'Loan Assistance' section for more details."
+    },
+    {
+      "question": "Can I rent properties through Heaven Hub",
+      "answer": "Yes, we have a wide range of rental properties available. Use the 'Rent' filter in the search options."
+    },
+    {
+      "question": "What payment methods are accepted for premium plans",
+      "answer": "We accept credit cards, debit cards, UPI, and net banking for premium plan subscriptions."
+    },
+    {
+      "question": "How do I update my property listing",
+      "answer": "Log in to your account, navigate to 'My Listings,' and click 'Edit' to update your property details."
+    },
+    {
+      "question": "What is the minimum lease period for rental properties",
+      "answer": "The minimum lease period depends on the property. Check the details on the rental property page."
+    },
+    {
+      "question": "Can I save properties I like",
+      "answer": "Yes, you can save properties by clicking on the 'Save' icon on each property page."
+    },
+    {
+      "question": "How do I unsubscribe from promotional emails",
+      "answer": "You can unsubscribe by clicking the 'Unsubscribe' link at the bottom of our emails."
+    },
+    {
+      "question": "What amenities are usually listed with properties",
+      "answer": "Amenities such as parking, gym, swimming pool, and 24/7 security are commonly listed."
+    },
+    {
+      "question": "How do I filter properties by budget",
+      "answer": "Use the price range slider in the search bar to filter properties based on your budget."
+    },
+    {
+      "question": "Is there a mobile app for Heaven Hub",
+      "answer": "Yes, our mobile app is available on both Android and iOS platforms. Download it from the respective app stores."
+    },
+    {
+      "question": "Can I add multiple properties to my listing",
+      "answer": "Yes, you can list multiple properties from your account dashboard."
+    },
+    {
+      "question": "How often is the property data updated",
+      "answer": "Our property data is updated in real-time to ensure accuracy."
+    },
+    {
+      "question": "Can I delete my property listing",
+      "answer": "Yes, you can delete your listing from the 'My Listings' section in your account dashboard."
+    },
+    {
+      "question": "How do I book a property",
+      "answer": "To book a property, click on 'Contact Owner' and finalize the details directly with them."
+    },
+    {
+      "question": "Does Heaven Hub charge commission",
+      "answer": "We do not charge any commission. Any fees are limited to premium plans for enhanced visibility."
+    },
+    {
+      "question": "Can I post a requirement for a property",
+      "answer": "Yes, you can post your requirements in the 'Post Requirement' section, and property owners will contact you."
+    },
+    {
+      "question": "What is the refund policy for premium plans",
+      "answer": "Our refund policy is detailed in the 'Terms & Conditions' section. Please review it for specific cases."
+    },
+    {
+      "question": "Do you provide customer support",
+      "answer": "Yes, our customer support team is available 24/7 via chat and email."
+    },
+    {
+      "question": "Can I compare multiple properties",
+      "answer": "Yes, you can use the 'Compare' feature to compare details of up to three properties."
+    },
+    {
+      "question": "What is a verified property",
+      "answer": "A verified property has been inspected and approved by our team to ensure accuracy and quality."
+    },
+    {
+      "question": "How do I update my profile information",
+      "answer": "Log in to your account and navigate to 'Profile Settings' to update your information."
+    },
+    {
+      "question": "What happens after I book a property",
+      "answer": "After booking, you will coordinate with the property owner to finalize the deal and complete any paperwork."
+    },
+    {
+      "question": "Can I share property details with others",
+      "answer": "Yes, you can share property details via email or social media using the share buttons on the property page."
+    },
+    {
+      "question": "What documents are required for renting",
+      "answer": "Typically, an ID proof, address proof, and lease agreement are required for renting."
+    },
+    {
+      "question": "How do I know if a property is available",
+      "answer": "Property availability is displayed on the property page. Contact the owner for real-time updates."
+    },
+    {
+      "question": "Do you offer property management services",
+      "answer": "Yes, we offer property management services for landlords. Contact our team for details."
+    },
+    {
+      "question": "Can I advertise my real estate business on Heaven Hub",
+      "answer": "Yes, we offer advertising opportunities. Visit the 'Advertise With Us' section for more information."
+    },
+    {
+      "question": "What are the benefits of a premium plan",
+      "answer": "Premium plans provide better visibility, top placement in search results, and additional analytics."
+    },
+    {
+      "question": "Can I customize property alerts",
+      "answer": "Yes, you can set up customized alerts for new properties that match your preferences."
+    },
+    {
+      "question": "What is the difference between buying and renting",
+      "answer": "Buying gives you ownership, while renting is a temporary arrangement. Both options have their pros and cons."
+    },
+    {
+      "question": "How do I get notified about new listings",
+      "answer": "Sign up for our email notifications or enable push notifications on the mobile app."
+    },
+    {
+      "question": "What is a virtual property tour",
+      "answer": "A virtual tour allows you to view the property online using 360-degree images or videos."
+    },
+    {
+      "question": "How secure is my data on Heaven Hub",
+      "answer": "We follow strict data privacy protocols to ensure the security of your personal information."
+    }
+  ]

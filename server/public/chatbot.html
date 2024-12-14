@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot - Heaven Hub</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      #chatContainer {
+        width: 400px;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      #chatHeader {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      #chatOutput {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        height: 150px;
+        overflow-y: auto;
+        background: #f9f9f9;
+        margin-bottom: 20px;
+      }
+      #chatOutput p {
+        margin: 0;
+        padding: 5px 0;
+      }
+      #chatForm {
+        display: flex;
+      }
+      #chatInput {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+      #chatSubmit {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+      #chatSubmit:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chatContainer">
+      <div id="chatHeader">Heaven Hub Chatbot</div>
+      <div id="chatOutput"></div>
+      <form id="chatForm">
+        <input
+          type="text"
+          id="chatInput"
+          placeholder="Ask your question..."
+          required
+        />
+        <button type="submit" id="chatSubmit">Send</button>
+      </form>
+    </div>
+
+    <script>
+      const chatForm = document.getElementById("chatForm");
+      const chatInput = document.getElementById("chatInput");
+      const chatOutput = document.getElementById("chatOutput");
+
+      chatForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const userQuestion = chatInput.value;
+        if (!userQuestion.trim()) return;
+
+        // Add user question to chat output
+        const userMessage = document.createElement("p");
+        userMessage.textContent = "You: " + userQuestion;
+        chatOutput.appendChild(userMessage);
+
+        // Send request to chatbot API
+        try {
+          const response = await fetch("/chatRoutes/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ question: userQuestion }),
+          });
+
+          const data = await response.json();
+
+          // Display chatbot response
+          const botMessage = document.createElement("p");
+          botMessage.textContent = "Bot: " + data.answer;
+          chatOutput.appendChild(botMessage);
+        } catch (error) {
+          const errorMessage = document.createElement("p");
+          errorMessage.textContent = "Bot: Sorry, there was an error.";
+          chatOutput.appendChild(errorMessage);
+        }
+
+        // Clear input field and scroll to bottom
+        chatInput.value = "";
+        chatOutput.scrollTop = chatOutput.scrollHeight;
+      });
+    </script>
+  </body>
+</html>
